@@ -5,6 +5,10 @@
 
 declare module "sst" {
   export interface Resource {
+    "Notes": {
+      "name": string
+      "type": "sst.aws.Dynamo"
+    }
     "Uploads": {
       "name": string
       "type": "sst.aws.Bucket"
