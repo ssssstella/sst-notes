@@ -12,7 +12,7 @@ interface LoginForm {
   email: string;
   password: string;
 }
-// https://docs.amplify.aws/react/start/connect-to-aws-resources/
+
 export default function Login() {
   const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(false);
